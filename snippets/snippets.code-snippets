@@ -1,0 +1,25 @@
+{
+    " GraphGetMe": {
+        "prefix": "GetME",
+        "body": [
+            "const me = client.api(`/me`).get();"
+        ],
+        "description": "get me information"
+    },
+    "GraphClientInitWithToken":{
+        "prefix": "ClientInitToken",
+        "body": [
+            "client.init({",
+                "token: `YOUR_TOKEN_HERE`",
+            "})"
+        ],
+        "description": "init client with token"
+    },
+    "GraphGetUsers":{
+        "prefix": "ClientGetUsers",
+        "body": [
+            "const users = await client.api(`/users`).get();"
+        ],
+        "description": "init client with token"
+    }
+}
